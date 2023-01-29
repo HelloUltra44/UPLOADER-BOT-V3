@@ -55,7 +55,6 @@ class Config(object):
 
     OWNER_ID = int(os.environ.get("OWNER_ID", "5410723702"))
 
-    OWNER_ID.append(1834908260)
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     
